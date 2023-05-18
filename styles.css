@@ -1,0 +1,56 @@
+/*Header section*/
+header {
+    font-family: Helvetica, sans-serif;
+}
+
+header blockquote {
+    font-style: oblique;
+}
+
+/*body section*/
+body {
+    background-color: #D9D9D9;
+}
+
+#citadel {
+    float: left;
+    margin: 2em;
+}
+
+main h2 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #0004BC;
+}
+
+#history::first-letter {
+    font-size: 200%;
+}
+
+/*List customization*/
+#list_title {
+    font-size: 120%;
+    clear: left;
+}
+
+ul {
+    font-size: 120%;
+}
+
+li>a {
+    color: #0004BC;
+}
+
+a:hover,
+a:visited {
+    color: #DC3333
+}
+
+/*footer section*/
+footer p {
+    text-align: center;
+}
