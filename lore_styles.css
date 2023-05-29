@@ -1,35 +1,12 @@
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
 html {
-    
     background-image: linear-gradient(135deg, #F72525 0%, #F72525 33%, #9F9F9F 50%, #316CFF 66%, #316CFF 100%);
     background-repeat: repeat-x;
     background-position: center;
 }
 
-/*Header customization*/
-header {
-    font-family: Helvetica, sans-serif;
+/*header customization*/
+header h1{
     text-align: center;
-    padding: 0 0 2em 0;
-}
-
-header img{
-    width: 100%;
-    max-width: 250px;
-}
-
-#thumbs_up {
-    padding-top: 2em;
-}
-
-header blockquote {
-    font-style: oblique;
 }
 
 /*body customization*/
@@ -46,12 +23,13 @@ h3 {
     color: #0004BC;
 }
 
-/*modifications for the sections*/
+/*Section Customization*/
 section {
     border: 3px solid black;
     width: 65.3%;
     margin-left: 4.99%;
-    float: left;
+    margin-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 section h2 {
@@ -66,14 +44,18 @@ section p {
     margin: 1.5em;
 }
 
-#citadel {
-    width:100%;
-    max-width: 250px;
-    float: left;
-    margin: 1em;
+section img {
+    width: 50%;
+    max-width: 900px
 }
 
-/*aside customization*/
+/*Centers Images*/
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+
 aside {
     width: 19.94%;
     float: right;
@@ -136,13 +118,6 @@ footer p {
         float:none;
         margin: 5em auto;
         
-    }
-    #citadel {
-        width:60%;
-        max-width: 800px;
-        float: none;
-        display: block;
-        margin: 1em auto 1em auto;
     }
     aside{
         width: 90%;

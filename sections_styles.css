@@ -1,12 +1,9 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
-
 html {
-    
     background-image: linear-gradient(135deg, #F72525 0%, #F72525 33%, #9F9F9F 50%, #316CFF 66%, #316CFF 100%);
     background-repeat: repeat-x;
     background-position: center;
@@ -19,23 +16,10 @@ header {
     padding: 0 0 2em 0;
 }
 
-header img{
-    width: 100%;
-    max-width: 250px;
-}
-
-#thumbs_up {
-    padding-top: 2em;
-}
-
-header blockquote {
-    font-style: oblique;
-}
-
 /*body customization*/
 body {
     background-color: #D9D9D9;
-    width:96%;
+    width: 96%;
     max-width: 1003px;
     margin: 9.97% auto;
 }
@@ -49,46 +33,53 @@ h3 {
 /*modifications for the sections*/
 section {
     border: 3px solid black;
-    width: 65.3%;
+    width: 64.8%;
     margin-left: 4.99%;
-    float: left;
+    margin-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 section h2 {
     text-align: center;
+    padding: 0 0 1em 0;
 }
 
-#history::first-letter {
-    font-size: 200%;
+section img {
+    width: 50%;
+    max-width: 900px
+}
+
+/*Centers Images*/
+.center {
+    display: block;
+    margin: 0 auto;
 }
 
 section p {
     margin: 1.5em;
 }
 
-#citadel {
-    width:100%;
-    max-width: 250px;
-    float: left;
-    margin: 1em;
+#wards {
+    margin-bottom: 3em;
 }
 
-/*aside customization*/
+
+/*List customization*/
 aside {
     width: 19.94%;
     float: right;
-    padding:0 2em 0 2em;
+    padding: 0 2em 0 2em;
 }
 
-/*List customization*/
+
 #nav_menu ul {
     font-size: 100%;
-    text-align:center;
+    text-align: center;
     list-style: none;
     position: relative;
 }
 
-#nav_menu ul li{
+#nav_menu ul li {
     border: 1px solid black;
     margin-bottom: .5em;
 }
@@ -102,7 +93,7 @@ aside {
     font-weight: bold;
 }
 
-#nav_menu ul li a.current{
+#nav_menu ul li a.current {
     background-color: silver;
 }
 
@@ -111,7 +102,7 @@ aside {
     color: #0004BC;
 }
 
-#nav_menu a:hover{
+#nav_menu a:hover {
     color: #B402D5;
 }
 
@@ -130,30 +121,26 @@ footer p {
 }
 
 @media only screen and (max-width:761px) {
-    section{
+    section {
         width: 96%;
-        max-width: 800px;;
-        float:none;
-        margin: 5em auto;
-        
-    }
-    #citadel {
-        width:60%;
         max-width: 800px;
         float: none;
-        display: block;
-        margin: 1em auto 1em auto;
+        margin: 5em auto;
+
     }
-    aside{
+
+    aside {
         width: 90%;
-        float:none;
+        float: none;
         padding-bottom: 15%;
     }
+
     #nav_menu ul {
         list-style-type: none;
     }
+
     #nav_menu ul li {
-        width:100%;
+        width: 100%;
         float: left;
     }
 

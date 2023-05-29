@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Citadel Info Page" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta description="Information about the hub of the galaxy.">
     <title>The Citadel</title>
 </head>
@@ -15,15 +15,25 @@
     <header>
         <h1>Welcome to the Citadel!</h1>
         <h3>Central hub of the galactic community.</h3>
-        <img id="thumbs_up" src="images/thumbs up.jpg" height="150px" width="250px">
+            <a href="https://www.youtube.com/watch?v=MUPhWgQsrhc" target="_blank"><img id="thumbs_up" src="images/thumbs up.jpg"></a>
         <blockquote><q>I'm Commander Shepard, and this is my favorite place in the galaxy!</q></blockquote>
     </header>
 
     <main>
+        <aside>
+            <!--Navigation menu to more specific info-->
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="Lore.html">Lore</a></li>
+                    <li><a href="Citadel Sections.html">Sections of the Citadel</a></li>
+                </ul>
+            </nav>
+        </aside>
 
         <!--Will expand with more current history and major events-->
         <section>
-            <img id="citadel" src="images/Citadel Exterior.jpg" height="250px" width="250px" alt="Citadel Exterior">
+            <img id="citadel" src="images/Citadel Exterior.jpg" alt="Citadel Exterior">
             <h2>Brief History</h2>
             <p id="history"><strong>T</strong>he Citadel is a massive space station shrouded in mystery. Originally
                 found by
@@ -40,19 +50,11 @@
                 Council Specter Saren Arterius. Through the heroic actions of Commander Shepard and the noble sacrifice
                 of
                 many in the Alliance Navy's 5<sup>th</sup> fleet, they
-                were able to save the Citadel and the Council</p>
+                were able to save the Citadel and the Council.</p>
+                <p><a href="audio/Citadel Lore.mp3" target="_blank">Listen to the Lore!</a></p>
         </section>
+
         
-        <aside>
-        <h3 id="list_title">The various sections of the Citadel:</h3>
-        <!--Navigation menu to more specific info-->
-        <ul>
-            <li><a href="tower.html">Citadel Tower</a></li>
-            <li><a href="embassies.html">Embassies</a></li>
-            <li><a href="presidum.html">Presidium</a></li>
-            <li><a href="wards.html">The Wards</a></li>
-        </ul>
-        </aside>
         <!--Add in audio from codex entries-->
     </main>
 </body>
