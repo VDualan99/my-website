@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+@font-face{
+    font-family:ME;
+    src:url("fonts/me123.ttf");
+}
+
 
 html {
     
@@ -14,7 +19,7 @@ html {
 
 /*Header customization*/
 header {
-    font-family: Helvetica, sans-serif;
+    font-family: ME,Helvetica, sans-serif;
     text-align: center;
     padding: 0 0 2em 0;
 }
@@ -29,7 +34,7 @@ header img{
 }
 
 header blockquote {
-    font-style: oblique;
+    font-style: italic;
 }
 
 /*body customization*/
@@ -49,13 +54,11 @@ h3 {
 /*modifications for the sections*/
 section {
     border: 3px solid black;
-    width: 65.3%;
-    margin-left: 4.99%;
-    float: left;
+    width: 67.89%; 
 }
-
 section h2 {
     text-align: center;
+    justify-items: stretch;
 }
 
 #history::first-letter {
@@ -75,9 +78,9 @@ section p {
 
 /*aside customization*/
 aside {
-    width: 19.94%;
-    float: right;
+    width: 19.89%;
     padding:0 2em 0 2em;
+    float: right;
 }
 
 /*List customization*/
@@ -85,12 +88,13 @@ aside {
     font-size: 100%;
     text-align:center;
     list-style: none;
-    position: relative;
+    position: relative; 
 }
 
 #nav_menu ul li{
     border: 1px solid black;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
+    background-color: white; 
 }
 
 #nav_menu ul li a {
@@ -98,11 +102,10 @@ aside {
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
-    background-color: white;
     font-weight: bold;
 }
 
-#nav_menu ul li a.current{
+#nav_menu ul li.current{
     background-color: silver;
 }
 
@@ -130,12 +133,9 @@ footer p {
 }
 
 @media only screen and (max-width:761px) {
+
     section{
-        width: 96%;
-        max-width: 800px;;
-        float:none;
-        margin: 5em auto;
-        
+        width: 89%;
     }
     #citadel {
         width:60%;
@@ -147,14 +147,8 @@ footer p {
     aside{
         width: 90%;
         float:none;
-        padding-bottom: 15%;
-    }
-    #nav_menu ul {
-        list-style-type: none;
-    }
-    #nav_menu ul li {
-        width:100%;
-        float: left;
+        display: flex;
+        flex-direction: column;
     }
 
 }
