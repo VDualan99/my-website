@@ -40,7 +40,7 @@ section {
     display: flex;
     flex-direction: column;
     border: 3px solid black;
-    width: 66%;
+    width: 89%;
     margin-left: 4.99%;
     margin-bottom: 2em;
     padding-bottom: 3em;
@@ -73,22 +73,27 @@ section p {
 
 /*aside customization*/
 aside {
-    width: 19.89%;
-    padding:0 2em 0 2em;
-    float: right;
+    width: 100%;
+    padding:0 2em 5em 2em;
 }
 
 /*List customization*/
 #nav_menu ul {
     font-size: 100%;
     text-align:center;
-    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     position: relative; 
 }
 
 #nav_menu ul li{
     border: 1px solid black;
     margin-bottom: 1em;
+    margin-right: 1em;
+    padding-left: 1.2em;
+    float: left;
+    width: 20%;
     background-color: white; 
 }
 
@@ -103,11 +108,13 @@ aside {
 #nav_menu ul li.current{
     background-color: silver;
 }
+
+
 #nav_menu li>a {
     color: #0004BC;
 }
 
-#nav_menu a:hover {
+#nav_menu a:hover{
     color: #B402D5;
 }
 
@@ -125,19 +132,30 @@ footer p {
     text-align: center;
 }
 
-@media only screen and (max-width:814px) {
-    section {
-        width: 96%;
-        max-width: 800px;
-        float: none;
-        margin: 5em auto;
-
+@media only screen and (min-width:1500px) {
+    
+    body{
+        max-width: 1500px;
     }
 
+    #nav_menu ul li {
+        width: 21.8%;
+    }
+
+    section p{
+        font-size: 120%;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+    
     aside {
-        width: 90%;
+        width: 80%;
         float: none;
-        padding-bottom: 15%;
+        padding-bottom: 30%;
+        padding-left: 1em;
+        margin: auto;
     }
 
     #nav_menu ul {
@@ -146,7 +164,58 @@ footer p {
 
     #nav_menu ul li {
         width: 100%;
-        float: left;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    
+    aside {
+        padding-bottom: 35%;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    
+    aside {
+        padding-bottom: 40%;
+    }
+
+    #citadel {
+        float: none;
+        display: block;
+        margin: 1em auto;
+        max-width: 350px;
+        max-height: 250px;
+    }
+}
+
+@media only screen and (max-width:690px) {
+    
+    aside {
+        padding-bottom: 45%;
+    }
+}
+
+@media only screen and (max-width:610px) {
+    
+    aside {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:550px) {
+    aside {
+        padding-bottom: 55%;
+    }
+    
+    #citadel {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:490px) {
+    aside {
+        padding-bottom: 60%;
     }
 
 }

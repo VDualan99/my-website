@@ -1,0 +1,16 @@
+1. Right away when opening the site on my browser I noticed that the total area the body takes up is about 50% of the screen when viewed on my 1440p monitor. 
+Maybe you could adjust some of the CSS so the website scales up and not just down.
+
+2. My last suggestion would be to move the menu to the top of the page under the title, it would keep the rest of the content centered. 
+Although, I do think your design would be perfect for having another column on the right side, maybe more photos or links to other cool sites about the game.
+
+3. Lastly I noticed that the media query of your Homepage is at 761px while your other two pages are at 814px. 
+This causes an awkward issue where any display in between those two points jump between a web-focused view and mobile-focused view.
+
+4. I encountered this weird bug with the media queries in the "Lore" and "Sections of the Citadel" pages where it would adjust if you shrink your browser window, 
+but it wouldn't if you switched it to the phone view in the developer tools. I sent the website to my phone and it had the same error:
+
+5. With the mobile layout of the home page, I believe that, while the "Brief History" section looks great being off-center in the web view, 
+It would look great centered in the mobile view.
+
+Based on my peer feedback, I moved the navigation menu to the top of the screen and positioned it horizontally so I could center the content of the body and make the site more symmetrical. I then added a media query to align them vertically when the screen size gets smaller. I also added multiple media queries to stop the navigation menu from overlapping the main content. Since my site's content was fairly small on larger monitors, I added a media query to increase the size of the body to better utilize the available screen real estate. For the last change to the media queries, I made them all have the same width barriers so changes to the size wouldn't be be jarring between different pages.
