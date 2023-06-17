@@ -1,17 +1,16 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
-@font-face{
-    font-family:ME;
-    src:url("fonts/me123.ttf");
+@font-face {
+    font-family: ME;
+    src: url("fonts/me123.ttf");
 }
 
 
 html {
-    
+
     background-image: linear-gradient(135deg, #F72525 0%, #F72525 33%, #9F9F9F 50%, #316CFF 66%, #316CFF 100%);
     background-repeat: repeat-x;
     background-position: center;
@@ -19,12 +18,12 @@ html {
 
 /*Header customization*/
 header {
-    font-family: ME,Helvetica, sans-serif;
+    font-family: ME, Helvetica, sans-serif;
     text-align: center;
     padding: 0 0 2em 0;
 }
 
-header img{
+header img {
     width: 100%;
     max-width: 250px;
 }
@@ -40,9 +39,13 @@ header blockquote {
 /*body customization*/
 body {
     background-color: #D9D9D9;
-    width:96%;
+    width: 96%;
     max-width: 1003px;
     margin: 9.97% auto;
+}
+main{
+    display: grid;
+    grid-template: auto/80% 20%;
 }
 
 h1,
@@ -54,9 +57,10 @@ h3 {
 /*modifications for the sections*/
 section {
     border: 3px solid black;
-    width: 80%; 
+    width: 80%;
     margin: auto;
 }
+
 section h2 {
     text-align: center;
     justify-items: stretch;
@@ -71,36 +75,41 @@ section p {
 }
 
 #citadel {
-    width:100%;
+    width: 100%;
     max-width: 250px;
     float: left;
     margin: 1em;
 }
 
 /*aside customization*/
-aside {
+aside img{
+    max-width: 150px;
+    padding-top: 1em;
+}
+
+/*navigation customization*/
+nav {
     width: 100%;
-    padding:0 2em 5em 2em;
+    padding: 0 2em 5em 2em;
 }
 
 /*List customization*/
 #nav_menu ul {
     font-size: 100%;
-    text-align:center;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    position: relative; 
+    position: relative;
 }
 
-#nav_menu ul li{
+#nav_menu ul li {
     border: 1px solid black;
     margin-bottom: 1em;
     margin-right: 1em;
-    padding-left: 1.2em;
+    padding-left: 1em;
     float: left;
-    width: 20%;
-    background-color: white; 
+    width: 20.5%;
+    background-color: white;
 }
 
 #nav_menu ul li a {
@@ -111,7 +120,7 @@ aside {
     font-weight: bold;
 }
 
-#nav_menu ul li.current{
+#nav_menu ul li.current {
     background-color: silver;
 }
 
@@ -120,7 +129,7 @@ aside {
     color: #0004BC;
 }
 
-#nav_menu a:hover{
+#nav_menu a:hover {
     color: #B402D5;
 }
 
@@ -139,24 +148,24 @@ footer p {
 }
 
 @media only screen and (min-width:1500px) {
-    
-    body{
+
+    body {
         max-width: 1500px;
     }
 
     #nav_menu ul li {
-        width: 21.8%;
+        width: 22%;
     }
 
-    section p{
+    section p {
         font-size: 120%;
     }
 
 }
 
 @media only screen and (max-width:1000px) {
-    
-    aside {
+
+    nav {
         width: 80%;
         float: none;
         padding-bottom: 30%;
@@ -174,17 +183,17 @@ footer p {
 
 }
 
-@media only screen and (max-width:900px) {
-    
-    aside {
+@media only screen and (max-width:959px) {
+
+    nav {
         padding-bottom: 35%;
     }
 }
 
-@media only screen and (max-width:780px) {
-    
-    aside {
-        padding-bottom: 40%;
+@media only screen and (max-width:824px) {
+
+    nav {
+        padding-bottom: 36%;
     }
 
     #citadel {
@@ -196,32 +205,87 @@ footer p {
     }
 }
 
-@media only screen and (max-width:690px) {
-    
-    aside {
-        padding-bottom: 45%;
+@media only screen and (max-width:803px) {
+
+    main{
+        grid-template: auto/100%;
+    }
+    nav {
+        padding-bottom: 36%;
+    }
+    aside h3{
+        text-align: center;
+        padding-top: 5%;
+    }
+    aside img{
+        display: block;
+        margin: auto;
     }
 }
 
-@media only screen and (max-width:610px) {
-    
-    aside {
-        padding-bottom: 50%;
+@media only screen and (max-width:802px) {
+
+    nav {
+        padding-bottom: 37%;
     }
 }
-@media only screen and (max-width:550px) {
-    aside {
-        padding-bottom: 55%;
+
+@media only screen and (max-width:780px) {
+    nav {
+        padding-bottom: 40%;
     }
-    
+
     #citadel {
         max-width: 300px;
     }
 }
 
-@media only screen and (max-width:490px) {
-    aside {
+@media only screen and (max-width:724px) {
+    nav {
+        padding-bottom: 43%;
+    }
+
+  
+}
+
+@media only screen and (max-width:673px) {
+    nav {
+        padding-bottom: 45%;
+    }
+}
+@media only screen and (max-width:644px) {
+    nav {
+        padding-bottom: 48%;
+    }
+}
+@media only screen and (max-width:605px) {
+    nav {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:581px) {
+    nav {
+        padding-bottom: 52%;
+    }
+}
+@media only screen and (max-width:559px) {
+    nav {
+        padding-bottom: 55%;
+    }
+}
+@media only screen and (max-width:644px) {
+    nav {
+        padding-bottom: 58%;
+    }
+}
+@media only screen and (max-width:503px) {
+    nav {
         padding-bottom: 60%;
     }
 
+}
+@media only screen and (max-width:644px) {
+    nav {
+        padding-bottom: 65%;
+    }
 }
