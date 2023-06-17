@@ -244,8 +244,6 @@ footer p {
     nav {
         padding-bottom: 43%;
     }
-
-  
 }
 
 @media only screen and (max-width:673px) {
@@ -273,19 +271,75 @@ footer p {
         padding-bottom: 55%;
     }
 }
-@media only screen and (max-width:644px) {
+@media only screen and (max-width:515px) {
     nav {
         padding-bottom: 58%;
     }
+
 }
-@media only screen and (max-width:503px) {
+@media only screen and (max-width:488px) {
     nav {
         padding-bottom: 60%;
     }
 
 }
-@media only screen and (max-width:644px) {
+@media only screen and (max-width:472px) {
+    nav {
+        padding-bottom: 63%;
+    }
+
+}
+@media only screen and (max-width:449px) {
     nav {
         padding-bottom: 65%;
     }
+
+}
+@media only screen and (max-width:436px) {
+    nav {
+        padding-bottom: 68%;
+    }
+
+}
+@media only screen and (max-width:416px) {
+    nav {
+        padding-bottom: 70%;
+    }
+
+}
+@media only screen and (max-width:404px) {
+    nav {
+        padding-bottom: 73%;
+    }
+
+}
+@media only screen and (max-width:394px) {
+    #citadel {
+       max-width: 250px;
+    }
+
+}
+@media only screen and (max-width:388px) {
+    nav {
+        padding-bottom: 75%;
+    }
+
+}
+@media only screen and (max-width:377px) {
+    nav {
+        padding-bottom: 78%;
+    }
+
+}
+@media only screen and (max-width:363px) {
+    nav {
+        padding-bottom: 80%;
+    }
+
+}
+@media only screen and (max-width:354px) {
+    nav {
+        padding-bottom: 83%;
+    }
+
 }
