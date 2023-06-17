@@ -208,7 +208,7 @@ footer p {
 @media only screen and (max-width:803px) {
 
     main{
-        grid-template: auto/100%;
+       display: inline;
     }
     nav {
         padding-bottom: 36%;
@@ -410,6 +410,12 @@ footer p {
     }
     #citadel{
         max-width: 150px;
+    }
+
+}
+@media only screen and (max-width:243px) {
+    nav {
+        padding-bottom: 113%;
     }
 
 }
