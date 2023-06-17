@@ -1,17 +1,16 @@
-
 * {
     margin: 0;
     padding: 0;
 }
 
-@font-face{
-    font-family:ME;
-    src:url("../fonts/me123.ttf");
+@font-face {
+    font-family: ME;
+    src: url("../fonts/me123.ttf");
 }
 
 
 html {
-    
+
     background-image: linear-gradient(135deg, #F72525 0%, #F72525 33%, #9F9F9F 50%, #316CFF 66%, #316CFF 100%);
     background-repeat: repeat-x;
     background-position: center;
@@ -19,12 +18,12 @@ html {
 
 /*Header customization*/
 header {
-    font-family: ME,Helvetica, sans-serif;
+    font-family: ME, Helvetica, sans-serif;
     text-align: center;
     padding: 0 0 2em 0;
 }
 
-header img{
+header img {
     width: 100%;
     max-width: 250px;
 }
@@ -40,7 +39,7 @@ header blockquote {
 /*body customization*/
 body {
     background-color: #D9D9D9;
-    width:96%;
+    width: 96%;
     max-width: 1003px;
     margin: 9.97% auto;
 }
@@ -54,12 +53,17 @@ h3 {
 /*modifications for the sections*/
 section {
     border: 3px solid black;
-    width: 80%; 
-    margin: auto;
+    width: 80%;
+    margin: 0 auto 2em auto;
 }
+
 section h2 {
     text-align: center;
-    justify-items: stretch;
+    padding: 0 0 1em 0;
+}
+
+section h3 {
+    text-align: center;
 }
 
 
@@ -67,32 +71,36 @@ section p {
     margin: 1.5em;
 }
 
+#shepards {
+    max-width: 400px;
+    display: block;
+    margin: 1em auto;
+}
 
 
 /*navigation customization*/
 nav {
     width: 100%;
-    padding:0 2em 5em 2em;
+    padding: 0 2em 5em 2em;
 }
 
-/*List customization*/
 #nav_menu ul {
     font-size: 100%;
-    text-align:center;
+    text-align: center;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    position: relative; 
+    position: relative;
 }
 
-#nav_menu ul li{
+#nav_menu ul li {
     border: 1px solid black;
     margin-bottom: 1em;
     margin-right: 1em;
     padding-left: 1.2em;
     float: left;
     width: 20%;
-    background-color: white; 
+    background-color: white;
 }
 
 #nav_menu ul li a {
@@ -103,7 +111,7 @@ nav {
     font-weight: bold;
 }
 
-#nav_menu ul li.current{
+#nav_menu ul li.current {
     background-color: silver;
 }
 
@@ -112,7 +120,7 @@ nav {
     color: #0004BC;
 }
 
-#nav_menu a:hover{
+#nav_menu a:hover {
     color: #B402D5;
 }
 
@@ -131,8 +139,8 @@ footer p {
 }
 
 @media only screen and (min-width:1500px) {
-    
-    body{
+
+    body {
         max-width: 1500px;
     }
 
@@ -140,14 +148,14 @@ footer p {
         width: 21.8%;
     }
 
-    section p{
+    section p {
         font-size: 120%;
     }
 
 }
 
 @media only screen and (max-width:1000px) {
-    
+
     nav {
         width: 80%;
         float: none;
@@ -167,14 +175,14 @@ footer p {
 }
 
 @media only screen and (max-width:900px) {
-    
+
     nav {
         padding-bottom: 35%;
     }
 }
 
 @media only screen and (max-width:780px) {
-    
+
     nav {
         padding-bottom: 40%;
     }
@@ -182,23 +190,24 @@ footer p {
 }
 
 @media only screen and (max-width:690px) {
-    
+
     nav {
         padding-bottom: 45%;
     }
 }
 
 @media only screen and (max-width:610px) {
-    
+
     nav {
         padding-bottom: 50%;
     }
 }
+
 @media only screen and (max-width:550px) {
     nav {
         padding-bottom: 55%;
     }
-    
+
 }
 
 @media only screen and (max-width:490px) {
