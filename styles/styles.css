@@ -83,6 +83,7 @@ section p {
 
 /*aside customization*/
 aside img{
+    width:80%;
     max-width: 150px;
     padding-top: 1em;
 }
