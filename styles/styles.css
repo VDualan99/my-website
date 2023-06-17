@@ -239,13 +239,11 @@ footer p {
         max-width: 300px;
     }
 }
-
 @media only screen and (max-width:724px) {
     nav {
         padding-bottom: 43%;
     }
 }
-
 @media only screen and (max-width:673px) {
     nav {
         padding-bottom: 45%;
@@ -340,6 +338,78 @@ footer p {
 @media only screen and (max-width:354px) {
     nav {
         padding-bottom: 83%;
+    }
+
+}
+@media only screen and (max-width:341px) {
+    nav {
+        padding-bottom: 85%;
+    }
+
+}
+@media only screen and (max-width:333px) {
+    nav {
+        padding-bottom: 88%;
+    }
+    #citadel{
+        max-width: 200px;
+    }
+
+}
+@media only screen and (max-width:323px) {
+    nav {
+        padding-bottom: 90%;
+    }
+
+}
+@media only screen and (max-width:314px) {
+    nav {
+        padding-bottom: 93%;
+    }
+
+}
+@media only screen and (max-width:304px) {
+    nav {
+        padding-bottom: 95%;
+    }
+
+}
+@media only screen and (max-width:299px) {
+    nav {
+        padding-bottom: 98%;
+    }
+
+}
+@media only screen and (max-width:290px) {
+    nav {
+        padding-bottom: 100%;
+    }
+
+}
+@media only screen and (max-width:283px) {
+    nav {
+        padding-bottom: 103%;
+    }
+
+}
+@media only screen and (max-width:275px) {
+    nav {
+        padding-bottom: 105%;
+    }
+
+}
+@media only screen and (max-width:269px) {
+    nav {
+        padding-bottom: 108%;
+    }
+
+}
+@media only screen and (max-width:262px) {
+    nav {
+        padding-bottom: 110%;
+    }
+    #citadel{
+        max-width: 150px;
     }
 
 }
