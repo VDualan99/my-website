@@ -6,7 +6,7 @@ html {
 
 @font-face{
     font-family:ME;
-    src:url("fonts/me123.ttf");
+    src:url("../fonts/me123.ttf");
 }
 
 /*Header customization*/
